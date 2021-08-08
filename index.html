@@ -1,1 +1,17 @@
+<button onclick="Create()">Create</button>
 <textarea id="Items" rows="30" cols="15"></textarea>
+<script>
+  function Create() {
+  var output = document.getDocumentById("Items").innerText;
+  return output;
+  }
+  
+  function Define(item, code) {
+   var 'define' + item = code;
+  }
+  
+  function Option(name) {
+   var option = document.createElement("button");
+    option.onclick = 'define' + name;
+  }
+</script>
