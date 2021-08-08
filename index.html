@@ -1,3 +1,4 @@
+<head>
 <script>
   function Create() {
   var output = document.getDocumentById("Items").innerText;
@@ -13,5 +14,8 @@
     option.onclick = 'define' + name;
   }
 </script>
+</head>
+<body>
 <button onclick="Create()">Create</button>
 <textarea id="Items" rows="15" cols="30"></textarea>
+</body>
